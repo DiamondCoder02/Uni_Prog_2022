@@ -10,18 +10,18 @@ int main()
     float g,h,i;
     a = 7;
     b = 5;
-    h = 7;
-    i = 5;
+    h = 7.1;
+    i = 5.7;
     c = a + b;
     d = a - b;
     e = a * b;
     f = a / b;
-    g = a / b;
+    g = h / i;
     printf("Add up: %d + %d = %d\n", a, b, c);
     printf("Minus: %d - %d = %d\n", a, b, d);
     printf("Multiply: %d * %d = %d\n", a, b, e);
     printf("Divide: %d / %d = %d\n", a, b, f);
-    printf("Divide: %d / %d = %f\n", a, b, g);
+    printf("Divide: %d / %d = %0.6f\n", a, b, g);
 
     //std::cout << "Hello World!\n";
     std::cout << " Horny ";
