@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
     float owo, nya, lewd, creamPi, horny;
-    string uwu; 
     int objectNum;
     bool dim;
     owo = 0.0;
@@ -23,8 +22,6 @@ int main()
         if (dim) {
             cout << "What's the object? \n1 Cube\n2 Cuboid\n3 Pyramid\n4 Sphere\n5 Cylinder\nChoosen:";
             cin >> objectNum;
-            cout << "What would you like to calculate? Surfece or Volume? (Type S or V) ";
-            cin >> uwu;
             if (objectNum == 1) {
                 cout << "Please give me a side: ";
                 cin >> owo;
@@ -80,7 +77,7 @@ int main()
                 return 0;
             }
             else {
-                printf("\nError, you made mistake! \n");
+                printf("\n__Error, you made mistake!__ \n");
                 return 0;
             }
         }
@@ -129,7 +126,7 @@ int main()
                 return 0;
             }
             else {
-                printf("\nError, you made mistake! \n");
+                printf("\n__Error, you made mistake!__ \n");
                 return 0;
             }
         }
