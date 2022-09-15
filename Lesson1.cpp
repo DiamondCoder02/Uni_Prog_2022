@@ -1,6 +1,7 @@
 // Lesson1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 //Homework1
@@ -20,7 +21,7 @@ int main()
     cin >> dim;
     try {
         if (dim) {
-            cout << "What's the object? \n1 Cube\n2 Cuboid\n3 Pyramid\n4 Sphere\n5 Cylinder";
+            cout << "What's the object? \n1 Cube\n2 Cuboid\n3 Pyramid\n4 Sphere\n5 Cylinder\nChoosen:";
             cin >> objectNum;
             cout << "What would you like to calculate? Surfece or Volume? (Type S or V) ";
             cin >> uwu;
@@ -51,9 +52,8 @@ int main()
                 cin >> owo;
                 cout << "Please give me the height: ";
                 cin >> nya;
-                cout << "Please give me the !! side area !! : ";
-                cin >> horny;
-                lewd = (owo * owo * horny);
+                horny = sqrt((owo/2)*(owo/2)+nya*nya);
+                lewd = ((owo * owo) + (horny *owo*2));
                 printf("Pyramid Surface is %f \n", lewd);
                 lewd = (owo * owo * nya * 1/3);
                 printf("Pyramid Volume is %f \n", lewd);
@@ -79,9 +79,10 @@ int main()
                 printf("Cylinder Volume is %f \n", lewd);
                 return 0;
             }
-
-
-            
+            else {
+                printf("\nError, you made mistake! \n");
+                return 0;
+            }
         }
         else {
             cout << "What's the object? \n1 Square\n2 Rectangle\n3 Triangle\n4 Circle\n5 Ellipse";
@@ -127,10 +128,14 @@ int main()
                 printf("Ellipse Area is %f \n", lewd);
                 return 0;
             }
+            else {
+                printf("\nError, you made mistake! \n");
+                return 0;
+            }
         }
     }
     catch (...) {
-        printf("\nError, you made mistake! \n");
+        printf("\n\n__Error, you made mistake!__ \n");
         return 0;
     }
 }
