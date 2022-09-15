@@ -1,4 +1,4 @@
-// Lesson1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//DiamondCoder code 15-09-2022
 //
 #include <iostream>
 #include <cmath>
