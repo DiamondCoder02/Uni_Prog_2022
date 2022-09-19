@@ -5,7 +5,9 @@
 using namespace std;
 //On old system: setlocale(LC_ALL, "hun");
 
+
 //Homework1
+/*
 int main()
 {
     float owo, nya, lewd, creamPi, horny;
