@@ -1,5 +1,6 @@
 //DiamondCoder code 19-09-2022
 //
+#include <stdio.h>
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -8,7 +9,15 @@ using namespace std;
 
 //Lesson2
 int main()
-{
+{   
+    setlocale(LC_ALL, "hun");
+    char c;
+    printf("UwU Chat: "); scanf_s("%c", &c);
+    if (c >= '0' && c <= '9')
+        printf("Szám\n");
+    else printf("Nem Szám\n");
+
+    /*
     float bruh, uwu, lol;
     bruh = 0.0;
     uwu = 0.0;
@@ -19,4 +28,5 @@ int main()
     cin >> uwu;
     lol = (bruh / uwu);
     printf("Why?: %f \n", lol);
+    */
 }
