@@ -8,6 +8,7 @@ using namespace std;
 
 
 //Lesson2
+/*
 int main()
 {   
     setlocale(LC_ALL, "hun");
@@ -29,4 +30,4 @@ int main()
     lol = (bruh / uwu);
     printf("Why?: %f \n", lol);
     */
-}
+//}
