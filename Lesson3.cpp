@@ -13,6 +13,68 @@ using namespace std;
 
 
 //Lesson3
+//Check if number is positive or negative while also checking even or odd
+/*
+int main() {
+	int number;
+	cout << "Enter a number: ";
+	cin >> number;
+	if (number > 0) {
+		if (number % 2 == 0) {
+			cout << "Positive even number";
+		}
+		else {
+			cout << "Positive odd number";
+		}
+	}
+	else if (number < 0) {
+		if (number % 2 == 0) {
+			cout << "Negative even number";
+		}
+		else {
+			cout << "Negative odd number";
+		}
+	}
+	else {
+		cout << "It's a Zero";
+	}
+	return 0;
+}
+*/
+/*
+int main() {
+	int i;
+	for (i = -255; i < 256; i++) {
+		if (i % 2 == 0) {
+			cout << i << " is even" << endl;
+		}
+		else {
+			cout << i << " is odd" << endl;
+		}
+	}
+	return 0;
+}
+*/
+/*
+int main() {
+	int number;
+	cout << "Enter a number: ";
+	cin >> number;
+	if (number % 2 == 0) {
+		cout << "The number is even.";
+    }
+    else if (number == 0) {
+        cout << "The number is 0. Is it even or odd?.";
+    }
+	else {
+		cout << "The number is odd.";
+	}
+	return 0;
+}
+*/
+
+/*
+//How many ways can you print hello world?
 int main()
 {
     puts("Hello OwO\n");
@@ -52,3 +114,4 @@ int main()
     printf("%c", '0' - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0) - (0 == 0));
     return 0;
 }
+*/
