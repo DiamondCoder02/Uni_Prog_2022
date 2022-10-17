@@ -8,7 +8,7 @@
 
 using namespace std;
 //On old system: setlocale(LC_ALL, "hun");
-
+/*
 int main() {
 	int exercise;
 	cout << "Which exercise should we test first? (1-5): ";
@@ -106,7 +106,7 @@ int main() {
 		return 0;
 	}
 }
-
+*/
 //Exercise 4
 /*
 int main() {
