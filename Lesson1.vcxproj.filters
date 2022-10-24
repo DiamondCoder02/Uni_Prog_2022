@@ -33,5 +33,8 @@
     <ClCompile Include="Lesson6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KO8LM4_zh1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

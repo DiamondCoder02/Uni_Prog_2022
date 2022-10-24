@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="KO8LM4_zh1.cpp" />
     <ClCompile Include="Lesson1.cpp" />
     <ClCompile Include="Lesson2.cpp" />
     <ClCompile Include="Lesson3.cpp" />
