@@ -36,5 +36,11 @@
     <ClCompile Include="KO8LM4_zh1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

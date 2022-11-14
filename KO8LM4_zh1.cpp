@@ -6,7 +6,7 @@
 
 using namespace std;
 
-
+/*
 int main() {
 	//1.feladat
 	int a, b, c;
@@ -82,3 +82,4 @@ int main() {
 	cout << "Hello " << name << endl;
 	
 }
+*/
