@@ -6,7 +6,7 @@
 
 using namespace std;
 //On old system: setlocale(LC_ALL, "hun");
-
+/*
 int osszeadas(int a, int b) {
 	return a + b;
 }
@@ -23,7 +23,7 @@ int main() {
 	z = area(a, b);
 	cout << "\nArea: " << z;
 	return 0;
-}
+}*/
 
 /*
 int main() {
