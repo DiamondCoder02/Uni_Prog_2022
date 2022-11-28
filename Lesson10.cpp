@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include <iostream>
 #include <cmath>
-#include "Lesson10.h"
 
 using namespace std;
 //On old system: setlocale(LC_ALL, "hun");
 
+/*
 int main() {
 	
 }struct rec {
@@ -17,7 +17,9 @@ int main() {
 	rec* kovetkezo;
 
 };
+*/
 
+/*
 int main() {
 	int adat;
 	rec* uj, * elso = NULL, * aktualis;
@@ -47,7 +49,7 @@ int main() {
 		aktualis = aktualis->kovetkezo;
 	}
 }
-
+*/
 
 /*
 int main() {

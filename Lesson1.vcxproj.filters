@@ -45,10 +45,11 @@
     <ClCompile Include="Lesson10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Lesson10.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="KO8LM4_zh2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson11_zh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
